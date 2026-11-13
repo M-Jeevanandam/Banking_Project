@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sensitive files
+.env
+
+# Dataset files
+data/
+csv/
+*.parquet
+*.csv
+
+# DuckDB files
+*.duckdb
+*.wal
+
+# Temporary files
+*.log
+*.tmp
